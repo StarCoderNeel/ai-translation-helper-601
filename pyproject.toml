@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-translation-helper-601"
+version = "0.1.0"
+description = "A CLI tool that translates text between languages using a neural machine translation model, with support for multiple languages and customizable translation settings."
+dependencies = ['transformers', 'torch', 'langdetect', 'click', 'pyyaml']
+
+[tool.black]
+line-length = 88
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

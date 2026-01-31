@@ -1,0 +1,8 @@
+transformers
+torch
+langdetect
+click
+pyyaml
+pytest
+black
+flake8
